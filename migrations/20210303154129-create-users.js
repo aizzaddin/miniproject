@@ -8,7 +8,6 @@ module.exports = {
                 type: Sequelize.STRING(22)
             },
             firstName: {
-                allowNull: false,
                 type: Sequelize.STRING
             },
             lastName: {
