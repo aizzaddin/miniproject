@@ -6,6 +6,10 @@ app.set('view engine', 'ejs');
 app.use(express.json())
 app.use(express.static('views'));
 
+const landingPageRoute = require('./Routes/landingPageRoute')
+const authRoute = require('./Routes/authRoute')
+app.use(landingPageRoute, authRoute)
+
 app.use(function (error, req, res, next) {
     res.send(error)
 })
