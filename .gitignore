@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-node_modules
-.env
-
-=======
 node_modules
 package-lock.json
 .env
->>>>>>> 358378f8aab34151c08376fefcfe6697d162aa07
